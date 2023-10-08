@@ -3,7 +3,7 @@
 
 This is identical to the parent except for two lines, which puts Window's focus on the task bar before switching desktops, then unfocuses the taskbar afterwards. The result is [preventing an annoying issue](https://stackoverflow.com/a/70201208) where taskbar icons flicker after changing desktops.
 
-Note that the functionality to send windows to another virtual desktop broken, probably due to some Windows update in the past five years.
+Note that the functionality to send windows to another virtual desktop is broken, probably due to some Windows update in the past five years.
 
 You can get the executable from the latest release of this repository. If you'd like to compile this yourself, you will have to use [an old version of AutoHotkey](https://github.com/AutoHotkey/AutoHotkey/releases/tag/v1.1.29.01). Make sure to custom intall to include the compiler and select Unicode 64-bit as the base file.
 
