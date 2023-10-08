@@ -1,3 +1,10 @@
+
+## Fork Info
+
+This is identical to the parent except for two lines, which puts Window's focus on the task bar before switching desktops, then unfocuses the taskbar afterwards. The result is [preventing an annoying issue](https://stackoverflow.com/a/70201208) where taskbar icons flicker after changing desktops.
+
+To compile this, you will have to use [an old version of AutoHotkey](https://github.com/AutoHotkey/AutoHotkey/releases/tag/v1.1.29.01), specifying Unicode 64-bit. 
+
 # Windows 10 Virtual Desktop Enhancer
 
 **Warning:** I am officially no longer maintaining this project due to lack of time and interest. Thanks for using it and for all of your work towards helping me improve it. -sdias
