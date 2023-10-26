@@ -345,9 +345,10 @@ OnDesktopSwitch(n:=1) {
 
 SwitchToDesktop(n:=1) {
     WinActivate, ahk_class Shell_TrayWnd
-    doFocusAfterNextSwitch=1
+    ;doFocusAfterNextSwitch=1
     _ChangeDesktop(n)
     WinMinimize, ahk_class Shell_TrayWnd
+	_Focus()
 }
 
 MoveToDesktop(n:=1) {
